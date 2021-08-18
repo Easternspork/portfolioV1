@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel='stylesheet' href='./style.css'>
+    <link rel='stylesheet' href='./reset.css'>
+    <title>test</title>
+</head>
+
+<body>
+    <nav>
+        <a href='/'><img src='./media/logo.PNG' width='80px'></a>
+        <ul>
+            <li><a href='#about'>About</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#contact'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Hi, I'm Easternspork!&#128075;</h1>
+
+        <div id='typewriter'>
+            <p id='app-prefix'>I'm a </p>
+            <!-- use typewriterJS v2 package -->
+            <div id='app'></div>
+            <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+            <script src='./script.js'></script>
+        </div>
+    </header>
+
+    <section id='about'>
+        <div id='about-info'>
+            <h2>About me</h2>
+            <p>
+                I'm a highschooler from Southern California. <br>
+                I mainly do web developement but I do have some knowledge in machine learning (by some I mean very little) <br>
+                I play video games (mainly Valorant) and watch anime on my free time. <br>
+                I'm hoping to use my web development skills to make cool projects in the future (wanna collaborate? <a>contact</a> me!)
+            </p>
+        </div>
+
+        <figure>
+            <img src='./media/image0.jpg'>
+            <figcaption>Picture of flower by me</figcaption>
+        </figure>
+
+    </section>  
+
+    <div id='sns'>
+        <h2>My Social Media</h2>
+        <a href='https://www.youtube.com/channel/UCGnuEPAkFG2N3ebt-dJg1Gg' target="_blank" rel="noopener noreferrer"><img src='./media/youtube-logo.png' width='75px'></a>
+        <a href='https://twitter.com/EasternSpork' target="_blank" rel="noopener noreferrer"><img src='./media/twitter-logo.png' width='75px'></a>
+        <a href='https://github.com/Easternspork' target="_blank" rel="noopener noreferrer"><img src='./media/github-logo.png' width="75px"></a>
+    </div>
+    
+    <section id='technologies'>
+
+        <h2>Technologies I know</h2>
+
+        <div id='tech-showcase'>
+            <div class='tech'>
+                <img src='./media/js-logo.jpg' width='75px'>
+                <div class='caption'>Javascript</div>
+                <img src='./media/3bar-intermediate-black-border.png' width='75px'>
+                <div class='caption'>Intermediate</div>    
+            </div>
+    
+            <div class='tech'>
+                <img src='./media/react-logo.png' width='75px'>
+                <div class='caption'>React</div>
+                <img src='./media/3bar-beginner-black-border.png' width='75px'>
+                <div class='caption'>Beginner</div>
+            </div>
+    
+            <div class='tech'>
+                <img src='./media/css-logo.png' width='75px'>
+                <div class='caption'>CSS</div>
+                <img src='./media/3bar-intermediate-black-border.png' width='75px'>
+                <div class='caption'>Intermediate</div>
+            </div>
+    
+            <div class='tech'>
+                <img src='./media/html-logo.png' width='75px'>
+                <div class='caption'>HTML</div>
+                <img src='./media/3bar-intermediate-black-border.png' width='75px'>
+                <div class='caption'>Intermediate</div>
+            </div>
+    
+            <div class='tech'>
+                <img src='./media/python-logo.png' width='84px'>
+                <div class='caption'>Python</div>
+                <img src='./media/3bar-intermediate-black-border.png' width='75px'>
+                <div class='caption'>Intermediate</div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id='projects'>
+        <h2>Projects</h2>
+        <div class='project'>
+            <div class='leftside'>
+                <h3>Hat Finder Terminal Game</h3>
+                <p>
+                    A game you can play in the terminal made entirely with Javascript. <br>
+                    Avoid holes and find your way to the hat to win! <br>
+                    Has random map generation (although it is a bit scuffed) <br>
+                    Practice with intermediate JS concepts; part of the Codecademy fullstack development course.<br>
+                 </p>
+                 <a href='https://github.com/Easternspork/findHat' target="_blank" rel="noopener noreferrer"><img src='./media/github-logo2.png' width='100px'>github</a>
+            </div>
+            <img src='./media/ezgif-6-14d428c52796.gif' class='preview-images'>
+        </div>
+        <div class='project'>
+            <div class='leftside'>
+                <h3>Tea Cozy Project</h3>
+                <p>
+                    A responsive homepage for a non-existant cafe. <br>
+                    Practice with responsive CSS; part of the Codecademy full stack developement course. <br>
+                    <strong>Live <a href='https://easternspork.github.io/teaCozyProject/' target="_blank" rel="noopener noreferrer"a>here!</a></strong><br>
+                </p>
+                <a href='https://github.com/Easternspork/teaCozyProject' target="_blank" rel="noopener noreferrer"><img src='./media/github-logo2.png' width='100px'>github</a>
+            </div>
+            <img src='./media/tea-cozy.PNG' class='preview-images'>
+        </div>
+        <div class='project'>
+            <div class='leftside'>
+                <h3>Jammming</h3>
+                <p> 
+                    A web app made with React and the Spotify API. <br>
+                    Search for songs on Spotify, and make playlists to save on your Spotify account!<br>
+                    HTML & CSS were supplied by Codecademy, and most of the code for making the Spotify API requests were from Codecademy.<br>
+                    Practice with React; part of the Codecademy full stack developement course. <br>
+                    <strong>Live <a href='https://easternspork-jammming.surge.sh/' target="_blank" rel="noopener noreferrer">here!</a></strong><br>
+                </p>
+                <a href='https://github.com/Easternspork/jammming' target="_blank" rel="noopener noreferrer"><img src='./media/github-logo2.png' width='100px'>github</a>
+            </div> 
+            <img src='./media/jammming.PNG' class='preview-images'>
+        </div>
+    </section>
+    <section id='contact'>
+        <h2>Contact me</h2>
+        <p>
+            You can email me at: easternspork@gmail.com <br>
+            I'll get to you the fastest through discord: diamondspork#4516
+        </p>
+    </section>
+    <footer>
+        <div id='footer-text'>
+            Made with &#10084; by Easternspork <br>
+            &#169; Easternspork 2021
+        </div>
+    </footer>
+</body>
