@@ -177,6 +177,10 @@ h1 {
     margin-left: 20px;
 }
 
+.leftside {
+    flex-wrap: wrap;
+}
+
 /* Contact */
 
 #contact {
