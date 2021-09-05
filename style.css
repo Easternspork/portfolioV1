@@ -162,6 +162,7 @@ h1 {
     margin: 50px 0px;
     display: inline-flex;
     line-height: 28px;
+    flex-wrap: wrap;
 }
 
 .project p {
@@ -173,12 +174,12 @@ h1 {
     position: relative;
     right: 0px;
     height: 100%;
-    width: 60%;
+    width: 500px;
     margin-left: 20px;
 }
 
 .leftside {
-    flex-wrap: wrap;
+    width: 700px;
 }
 
 /* Contact */
